@@ -3,12 +3,24 @@
 Offline LAN kiosk for an esports trophy room: a bilingual (AR/EN) trophy gallery
 on a big screen, with physical WLED shelf lighting synced to whatever is on screen.
 
-## Run
+## Quick start on a new machine (laptop)
 
-Requires only [Node.js](https://nodejs.org) on the host machine — **zero npm packages, zero internet**.
+1. Download the repo: `git clone https://github.com/Mjebreen/trophy-room-kiosk.git`
+   (or GitHub → *Code* → *Download ZIP* and extract it).
+2. Double-click **`start.bat`**.
+
+That's it. If Node.js is missing, `start.bat` installs it automatically
+(via winget, or by downloading a portable copy into `runtime/` — no admin
+rights needed). It then starts the server and opens the browser.
+Internet is only needed for that one-time Node download; after that the
+kiosk runs **fully offline**.
+
+## Run manually
+
+Requires only [Node.js](https://nodejs.org) — **zero npm packages, zero internet**.
 
 ```
-node server.js          # or double-click start.bat  (port 8080)
+node server.js          # or double-click start.bat  (port 8484)
 node server.js 9090     # custom port
 ```
 
