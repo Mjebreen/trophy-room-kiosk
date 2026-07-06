@@ -1,0 +1,878 @@
+{
+  "trophies": [
+    {
+      "id": "t1",
+      "title_ar": "The Best Saudi Team 2023",
+      "title_en": "The Best Saudi Team 2023",
+      "game_ar": "OF ALL TIME",
+      "game_en": "OF ALL TIME",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حصدت تويستد مايندز جائزة أفضل منظمة سعودية بعد عام استثنائي من النجاحات والبطولات في عدة ألعاب تنافسية. المنظمة رسخت مكانتها كواحدة من أبرز الأسماء في الرياضات الإلكترونية السعودية بفضل الاستقرار والإنجازات المستمرة.",
+      "desc_en": "Twisted Minds won the Best Saudi Organization award following an exceptional year of success and championships across multiple esports titles. The organization cemented its status as one of Saudi Arabia's leading esports names through consistency and continued achievements.",
+      "image": "img/trophies/17.webp",
+      "photos": [
+        "img/trophies/17.webp"
+      ],
+      "device": 1,
+      "ledStart": 0,
+      "ledStop": 27,
+      "color": "#ffd700"
+    },
+    {
+      "id": "t2",
+      "title_ar": "Best Overwatch 2 Team 2025",
+      "title_en": "Best Overwatch 2 Team 2025",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حقق تويستد مايندز لقب أفضل فريق Overwatch 2 في 2025 بعد موسم تاريخي حافل بالبطولات والإنجازات العالمية. الفريق فرض هيمنته على الساحة الدولية بأداء استثنائي، مؤكداً مكانته بين أعظم فرق Overwatch في العالم.",
+      "desc_en": "Twisted Minds were crowned the Best Overwatch 2 Team of 2025 after a historic season filled with international titles and achievements. The team dominated the global scene with exceptional performances, solidifying their place among the greatest Overwatch teams in the world.",
+      "image": "img/trophies/8.webp",
+      "photos": [
+        "img/trophies/8.webp"
+      ],
+      "device": 1,
+      "ledStart": 27,
+      "ledStop": 54,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t3",
+      "title_ar": "Saudi eLeague 2023 — Overwatch 2 Season 1",
+      "title_en": "Saudi eLeague 2023 — Overwatch 2 Season 1",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-0 على Triple Esports في النهائي. أول لقب للنادي في Overwatch 2 على المستوى الوطني.",
+      "desc_en": "Won 4-0 against Triple Esports in the final. Twisted Minds' first national title in Overwatch 2.",
+      "image": "img/trophies/14.webp",
+      "photos": [
+        "img/trophies/14.webp"
+      ],
+      "device": 1,
+      "ledStart": 54,
+      "ledStop": 81,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t4",
+      "title_ar": "Saudi eLeague 2023 — Overwatch 2 Season 2",
+      "title_en": "Saudi eLeague 2023 — Overwatch 2 Season 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-2 على Geekay Esports في النهائي. MVP: Quartz. اللقب الثاني على التوالي.",
+      "desc_en": "Won 4-2 against Geekay Esports in the final. MVP: Quartz. Back-to-back national title.",
+      "image": "img/trophies/121.webp",
+      "photos": [
+        "img/trophies/121.webp",
+        "img/tournaments/ow2231.webp",
+        "img/tournaments/ow2232.webp"
+      ],
+      "device": 1,
+      "ledStart": 81,
+      "ledStop": 108,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t5",
+      "title_ar": "Saudi eLeague 2024 — Overwatch 2 Major 1",
+      "title_en": "Saudi eLeague 2024 — Overwatch 2 Major 1",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على ROC Esports في النهائي. أول ميجور في موسم 2024.",
+      "desc_en": "Won against ROC Esports in the final. The first major of the 2024 season.",
+      "image": "img/trophies/13.webp",
+      "photos": [
+        "img/trophies/13.webp"
+      ],
+      "device": 1,
+      "ledStart": 108,
+      "ledStop": 135,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t6",
+      "title_ar": "Saudi eLeague 2024 — Overwatch 2 Major 2",
+      "title_en": "Saudi eLeague 2024 — Overwatch 2 Major 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-0 على Dragons Esports في النهائي (Bo7). الميجور الثاني يضاف للرصيد.",
+      "desc_en": "Won 4-0 against Dragons Esports in the final (Bo7). The second major added to the tally.",
+      "image": "img/trophies/16.webp",
+      "photos": [
+        "img/trophies/16.webp",
+        "img/tournaments/ow2m11.webp",
+        "img/tournaments/ow2m12.webp",
+        "img/tournaments/ow2m13.webp"
+      ],
+      "device": 1,
+      "ledStart": 135,
+      "ledStop": 162,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t7",
+      "title_ar": "Saudi eLeague 2024 — Overwatch 2 Major 3",
+      "title_en": "Saudi eLeague 2024 — Overwatch 2 Major 3",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-0 على Al Qadsiah في النهائي (Bo7). ردة فعل قوية بعد خسارة الميجورين الأول والثاني.",
+      "desc_en": "Won 4-0 against Al Qadsiah in the final (Bo7). A strong comeback after losing the first two majors.",
+      "image": "img/trophies/2ow.webp",
+      "photos": [
+        "img/trophies/2ow.webp",
+        "img/tournaments/ow2m324.webp"
+      ],
+      "device": 1,
+      "ledStart": 162,
+      "ledStop": 189,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t8",
+      "title_ar": "ESL Saudi Challenge 2024 — Overwatch 2",
+      "title_en": "ESL Saudi Challenge 2024 — Overwatch 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-0 على Vision Esports (Bo7) في VOV Gaming Arena. أول نسخة من بطولة ESL على أرض المملكة، وتويستد مايندز يفتتحها بطلاً.",
+      "desc_en": "Won 4-0 against Vision Esports (Bo7) at VOV Gaming Arena. The first ESL tournament on Saudi soil — and Twisted Minds opened it as champions.",
+      "image": "img/trophies/esls.webp",
+      "photos": [
+        "img/trophies/esls.webp",
+        "img/tournaments/eslsc1.webp",
+        "img/tournaments/eslsc2.webp"
+      ],
+      "device": 1,
+      "ledStart": 189,
+      "ledStop": 216,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t9",
+      "title_ar": "Saudi eLeague 2024 — Overwatch 2 Championship",
+      "title_en": "Saudi eLeague 2024 — Overwatch 2 Championship",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على ROC Esports في النهائي. أعلى جائزة OW2 على المستوى الوطني السعودي حتى ذلك الوقت.",
+      "desc_en": "Won against ROC Esports in the final. The highest OW2 prize in Saudi national competition at that time.",
+      "image": "img/trophies/19.webp",
+      "photos": [
+        "img/trophies/19.webp",
+        "img/tournaments/ow2c241.webp",
+        "img/tournaments/ow2c242.webp"
+      ],
+      "device": 1,
+      "ledStart": 216,
+      "ledStop": 243,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t10",
+      "title_ar": "ESL Saudi Challenge 2025 — Overwatch 2",
+      "title_en": "ESL Saudi Challenge 2025 — Overwatch 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على Al Qadsiah في النهائي. اللقب الثاني على التوالي في نفس البطولة.",
+      "desc_en": "Won against Al Qadsiah in the final. Back-to-back ESL Saudi Challenge title.",
+      "image": "img/trophies/esls.webp",
+      "photos": [
+        "img/trophies/esls.webp",
+        "img/tournaments/esl20251.webp",
+        "img/tournaments/esl20252.webp"
+      ],
+      "device": 1,
+      "ledStart": 243,
+      "ledStop": 270,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t11",
+      "title_ar": "ESL Saudi Challenge 2026 — Overwatch 2",
+      "title_en": "ESL Saudi Challenge 2026 — Overwatch 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2026,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-0 على Kurohana (Bo7) في نهائي ESL Saudi Challenge #3 بالرياض. تويستد مايندز أكد هيمنته على الساحة السعودية وحصد اللقب بدون خسارة في النهائي.",
+      "desc_en": "Won 4-0 against Kurohana (Bo7) in the ESL Saudi Challenge #3 Grand Final in Riyadh. Twisted Minds cemented their dominance over the Saudi scene, claiming the title with a flawless finals performance.",
+      "image": "img/trophies/esls.webp",
+      "photos": [
+        "img/trophies/esls.webp",
+        "img/tournaments/esls21.webp"
+      ],
+      "device": 1,
+      "ledStart": 270,
+      "ledStop": 297,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t12",
+      "title_ar": "Saudi eLeague 2025 — Overwatch 2 Championship",
+      "title_en": "Saudi eLeague 2025 — Overwatch 2 Championship",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على Al Qadsiah في النهائي (Bo7). تأكيد الهيمنة الوطنية للعام الثاني. نوفمبر 2025.",
+      "desc_en": "Won against Al Qadsiah in the final (Bo7). Confirming national dominance for the second consecutive year. November 2025.",
+      "image": "img/trophies/4.webp",
+      "photos": [
+        "img/trophies/4.webp",
+        "img/tournaments/ow2c25.webp"
+      ],
+      "device": 2,
+      "ledStart": 0,
+      "ledStop": 27,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t13",
+      "title_ar": "OWCS World Finals 2025 — Overwatch 2",
+      "title_en": "OWCS World Finals 2025 — Overwatch 2",
+      "game_ar": "Overwatch 2",
+      "game_en": "Overwatch 2",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-1 على Al Qadsiah في النهائي العالمي. أول فريق من خارج آسيا يحقق هذا اللقب في تاريخ اللعبة. 177,000 مشاهد في الذروة. MVP: Quartz. اللحظة التاريخية الأكبر في مسيرة تويستد مايندز في Overwatch 2.",
+      "desc_en": "Won 4-1 against Al Qadsiah in the World Final. The first non-Asian team to claim this title in Overwatch history. 177,000 peak viewers. MVP: Quartz. The most historic moment in Twisted Minds' Overwatch 2 journey.",
+      "image": "img/trophies/owcs.webp",
+      "photos": [
+        "img/trophies/owcs.webp"
+      ],
+      "device": 2,
+      "ledStart": 27,
+      "ledStop": 54,
+      "color": "#f99e1a"
+    },
+    {
+      "id": "t14",
+      "title_ar": "Saudi eLeague 2023 — VALORANT Season 1",
+      "title_en": "Saudi eLeague 2023 — VALORANT Season 1",
+      "game_ar": "VALORANT",
+      "game_en": "VALORANT",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 3-2 على Geekay Esports في نهائي مثير. Team Falcons انسحبت قبل البطولة. 5 يوليو 2023.",
+      "desc_en": "Won 3-2 against Geekay Esports in a thrilling final. Team Falcons withdrew before the tournament. July 5, 2023.",
+      "image": "img/trophies/15.webp",
+      "photos": [
+        "img/trophies/15.webp"
+      ],
+      "device": 2,
+      "ledStart": 54,
+      "ledStop": 81,
+      "color": "#ff4655"
+    },
+    {
+      "id": "t15",
+      "title_ar": "EWC 2025 — Call of Duty: Warzone",
+      "title_en": "EWC 2025 — Call of Duty: Warzone",
+      "game_ar": "Call of Duty: Warzone",
+      "game_en": "Call of Duty: Warzone",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "تتويج تويستد مايندز ببطولة كأس العالم للرياضات الإلكترونية 2025 في Warzone بعد أداء استثنائي أمام نخبة فرق العالم. حصد الفريق المركز الأول في النهائي الكبير من 10 مباريات، وحقق أول لقب LAN كبير لكل من Aydan وAlmond وzSmit.",
+      "desc_en": "Twisted Minds were crowned Esports World Cup 2025 Warzone champions after an outstanding performance against the world's best teams. The team secured first place in the 10-game Grand Final, earning the first major LAN title for Aydan, Almond, and zSmit.",
+      "image": "img/trophies/21.webp",
+      "photos": [
+        "img/trophies/21.webp"
+      ],
+      "device": 2,
+      "ledStart": 81,
+      "ledStop": 108,
+      "color": "#34c759"
+    },
+    {
+      "id": "t16",
+      "title_ar": "VALORANT Challengers 2025 MENA: Resilience",
+      "title_en": "VALORANT Challengers 2025 MENA: Resilience",
+      "game_ar": "VALORANT",
+      "game_en": "VALORANT",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "تُوّج تويستد مايندز بلقب VALORANT Challengers MENA: Resilience LAN Finals بعد الفوز 3-0 على The Ultimates في النهائي الكبير. البطولة أُقيمت في stc Esports Arena بالرياض. أغسطس 2025.",
+      "desc_en": "Twisted Minds were crowned champions of VALORANT Challengers 2025 MENA: Resilience LAN Finals after defeating The Ultimates 3-0 in the Grand Final at stc Esports Arena in Riyadh. August 2025.",
+      "image": "img/trophies/6.webp",
+      "photos": [
+        "img/trophies/6.webp"
+      ],
+      "device": 2,
+      "ledStart": 108,
+      "ledStop": 135,
+      "color": "#ff4655"
+    },
+    {
+      "id": "t17",
+      "title_ar": "Saudi eLeague 2025 — VALORANT Championship",
+      "title_en": "Saudi eLeague 2025 — VALORANT Championship",
+      "game_ar": "VALORANT",
+      "game_en": "VALORANT",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "MVP: ExiT. فاز على Stallions رغم ميزة الـ 2-map ban. نوفمبر 2025.",
+      "desc_en": "MVP: ExiT. Won against Stallions despite the 2-map ban advantage. November 2025.",
+      "image": "img/trophies/vl2.webp",
+      "photos": [
+        "img/trophies/vl2.webp",
+        "img/tournaments/vlo.webp"
+      ],
+      "device": 2,
+      "ledStart": 135,
+      "ledStop": 162,
+      "color": "#ff4655"
+    },
+    {
+      "id": "t18",
+      "title_ar": "PUBG Global Series 4 2024 — PUBG: Battlegrounds",
+      "title_en": "PUBG Global Series 4 2024 — PUBG: Battlegrounds",
+      "game_ar": "PUBG: Battlegrounds",
+      "game_en": "PUBG: Battlegrounds",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "الفوز الأول في سلسلة PGS التاريخية. بداية الثلاثية الذهبية التي لم يحققها أحد من قبل. يونيو 2024.",
+      "desc_en": "The first win in the historic PGS series. The beginning of a golden treble never achieved by any team before. June 2024.",
+      "image": "img/trophies/2442.webp",
+      "photos": [
+        "img/trophies/2442.webp"
+      ],
+      "device": 2,
+      "ledStart": 162,
+      "ledStop": 189,
+      "color": "#f2a900"
+    },
+    {
+      "id": "t19",
+      "title_ar": "PUBG Global Series 5 2024 — PUBG: Battlegrounds",
+      "title_en": "PUBG Global Series 5 2024 — PUBG: Battlegrounds",
+      "game_ar": "PUBG: Battlegrounds",
+      "game_en": "PUBG: Battlegrounds",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "أول فريق في تاريخ PUBG يحقق انتصارين متتاليين في PGS. التاريخ يُكتب من بانكوك. أكتوبر 2024.",
+      "desc_en": "The first team in PUBG history to win back-to-back PGS titles. History written in Bangkok, Thailand. October 2024.",
+      "image": "img/trophies/2442.webp",
+      "photos": [
+        "img/trophies/2442.webp"
+      ],
+      "device": 2,
+      "ledStart": 189,
+      "ledStop": 216,
+      "color": "#f2a900"
+    },
+    {
+      "id": "t20",
+      "title_ar": "PUBG Global Series 6 2024 — PUBG: Battlegrounds",
+      "title_en": "PUBG Global Series 6 2024 — PUBG: Battlegrounds",
+      "game_ar": "PUBG: Battlegrounds",
+      "game_en": "PUBG: Battlegrounds",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "الثلاثية الذهبية مكتملة. PGS4 + PGS5 + PGS6 في 5 أشهر فقط. PUBG Corp وصفتهم رسمياً بـ \"legends in the PUBG world\". نوفمبر 2024.",
+      "desc_en": "The golden treble is complete: PGS4 + PGS5 + PGS6 in just 5 months. PUBG Corp officially called them \"legends in the PUBG world\". November 2024.",
+      "image": "img/trophies/2442.webp",
+      "photos": [
+        "img/trophies/2442.webp"
+      ],
+      "device": 2,
+      "ledStart": 216,
+      "ledStop": 243,
+      "color": "#f2a900"
+    },
+    {
+      "id": "t21",
+      "title_ar": "EWC 2025 — PUBG: Battlegrounds",
+      "title_en": "EWC 2025 — PUBG: Battlegrounds",
+      "game_ar": "PUBG: Battlegrounds",
+      "game_en": "PUBG: Battlegrounds",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "اللحظة التاريخية الأكبر في مسيرة تويستد مايندز. الفوز بكأس العالم للرياضات الإلكترونية 2025 بجائزة 661,000 دولار. 3 chicken dinners في النهائي. 93 نقطة بفارق 7 نقاط عن Gen.G. ذروة المشاهدين: 258,876.",
+      "desc_en": "The biggest historic moment in Twisted Minds' journey — winning the Esports World Cup 2025 with a $661,000 prize. 3 chicken dinners in the final. 93 points, 7 ahead of Gen.G. Peak viewers: 258,876.",
+      "image": "img/trophies/10.webp",
+      "photos": [
+        "img/trophies/10.webp"
+      ],
+      "device": 2,
+      "ledStart": 243,
+      "ledStop": 270,
+      "color": "#f2a900"
+    },
+    {
+      "id": "t22",
+      "title_ar": "Saudi eLeague 2023 — PUBG Mobile Season 1",
+      "title_en": "Saudi eLeague 2023 — PUBG Mobile Season 1",
+      "game_ar": "PUBG Mobile",
+      "game_en": "PUBG Mobile",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على Triple Esports. أول لقب وطني للنادي في PUBG Mobile. جائزة ضخمة للمستوى المحلي. أبريل 2023.",
+      "desc_en": "Won against Triple Esports. Twisted Minds' first national title in PUBG Mobile — with a massive prize for local competition. April 2023.",
+      "image": "img/trophies/251.webp",
+      "photos": [
+        "img/trophies/251.webp",
+        "img/tournaments/pm23.webp"
+      ],
+      "device": 2,
+      "ledStart": 270,
+      "ledStop": 297,
+      "color": "#00c3ff"
+    },
+    {
+      "id": "t23",
+      "title_ar": "Saudi eLeague 2024 — PUBG Mobile Female Major 1",
+      "title_en": "Saudi eLeague 2024 — PUBG Mobile Female Major 1",
+      "game_ar": "PUBG Mobile",
+      "game_en": "PUBG Mobile",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز فريق Twisted Minds Orchid النسائي على Falcons Vega. إثبات أن النادي يصنع بطلات وليس أبطالاً فقط.",
+      "desc_en": "Twisted Minds Orchid won against Falcons Vega. Proof that the club builds champions on the women's side, not just the men's.",
+      "image": "img/trophies/pm.webp",
+      "photos": [
+        "img/trophies/pm.webp"
+      ],
+      "device": 3,
+      "ledStart": 0,
+      "ledStop": 27,
+      "color": "#00c3ff"
+    },
+    {
+      "id": "t24",
+      "title_ar": "Saudi eLeague 2024 — PUBG Mobile Female Major 2",
+      "title_en": "Saudi eLeague 2024 — PUBG Mobile Female Major 2",
+      "game_ar": "PUBG Mobile",
+      "game_en": "PUBG Mobile",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "تغلّب فريق Twisted Minds Orchid مرة ثانية على Falcons Vega. لقب نسائي مزدوج في الموسم نفسه.",
+      "desc_en": "Twisted Minds Orchid beat Falcons Vega again — a women's double title in the same season.",
+      "image": "img/trophies/85.webp",
+      "photos": [
+        "img/trophies/85.webp"
+      ],
+      "device": 3,
+      "ledStart": 27,
+      "ledStop": 54,
+      "color": "#00c3ff"
+    },
+    {
+      "id": "t25",
+      "title_ar": "Saudi eLeague 2024 — PUBG Mobile Female Championship",
+      "title_en": "Saudi eLeague 2024 — PUBG Mobile Female Championship",
+      "game_ar": "PUBG Mobile",
+      "game_en": "PUBG Mobile",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "Twisted Minds Orchid تتوَّج بطلةً للموسم، مؤكدةً هيمنتها على المشهد النسائي في المملكة.",
+      "desc_en": "Twisted Minds Orchid crowned season champions, cementing their dominance over the women's esports scene in Saudi Arabia.",
+      "image": "img/trophies/3256.webp",
+      "photos": [
+        "img/trophies/3256.webp",
+        "img/tournaments/pmf1.webp",
+        "img/tournaments/pmf2.webp",
+        "img/tournaments/pmf3.webp"
+      ],
+      "device": 3,
+      "ledStart": 54,
+      "ledStop": 81,
+      "color": "#00c3ff"
+    },
+    {
+      "id": "t26",
+      "title_ar": "FC24 Saudi Major 2 2024",
+      "title_en": "FC24 Saudi Major 2 2024",
+      "game_ar": "EA SPORTS FC 24",
+      "game_en": "EA SPORTS FC 24",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "شارك تويستد مايندز في منافسات FC24 Saudi Major 2 ضمن موسم الدوري السعودي الإلكتروني 2024، مواصلاً حضوره القوي في ساحة كرة القدم الإلكترونية. البطولة شهدت منافسة قوية بين أبرز اللاعبين والأندية السعودية، مع استمرار تويستد مايندز كأحد الأسماء البارزة في مشهد FC24 المحلي.",
+      "desc_en": "Twisted Minds competed in FC24 Saudi Major 2 as part of the 2024 Saudi eLeague season, continuing their strong presence in football esports. The tournament featured intense competition among Saudi Arabia's top players and clubs, with Twisted Minds remaining one of the standout names in the local FC24 scene.",
+      "image": "img/trophies/5.webp",
+      "photos": [
+        "img/trophies/5.webp"
+      ],
+      "device": 3,
+      "ledStart": 81,
+      "ledStop": 108,
+      "color": "#00e5a0"
+    },
+    {
+      "id": "t27",
+      "title_ar": "MPL MENA Season 6 2024 — Mobile Legends",
+      "title_en": "MPL MENA Season 6 2024 — Mobile Legends",
+      "game_ar": "Mobile Legends: Bang Bang",
+      "game_en": "Mobile Legends: Bang Bang",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز 4-1 على Geekay Esports. FMVP: Sanji. أول لقب MPL MENA في تاريخ النادي. أهّلهم للـ M6 World Championship في ماليزيا. لحظة تاريخية لـ MLBB العربي. 19 أكتوبر 2024.",
+      "desc_en": "Won 4-1 against Geekay Esports. FMVP: Sanji. The club's first-ever MPL MENA title. Qualified them for the M6 World Championship in Malaysia — a historic moment for Arab MLBB. October 19, 2024.",
+      "image": "img/trophies/2.webp",
+      "photos": [
+        "img/trophies/2.webp"
+      ],
+      "device": 3,
+      "ledStart": 108,
+      "ledStop": 135,
+      "color": "#af52de"
+    },
+    {
+      "id": "t28",
+      "title_ar": "Saudi eLeague 2024 — Mobile Legends Championship",
+      "title_en": "Saudi eLeague 2024 — Mobile Legends Championship",
+      "game_ar": "Mobile Legends: Bang Bang",
+      "game_en": "Mobile Legends: Bang Bang",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "تاج الموسم. بعد ثلاثة ميجرات متتالية، أكمل تويستد مايندز الهيمنة الكاملة على موسم MLBB 2024 بالفوز بالشامبيونشب 3-0 على Team Falcons. MVP: 7oda. ديسمبر 2024.",
+      "desc_en": "The crown of the season. After sweeping all three Majors, Twisted Minds completed total dominance over the 2024 MLBB season by winning the Championship 3-0 against Team Falcons. MVP: 7oda. December 2024.",
+      "image": "img/trophies/475.webp",
+      "photos": [
+        "img/trophies/475.webp"
+      ],
+      "device": 3,
+      "ledStart": 135,
+      "ledStop": 162,
+      "color": "#af52de"
+    },
+    {
+      "id": "t29",
+      "title_ar": "Saudi eLeague 2024 — COD Mobile",
+      "title_en": "Saudi eLeague 2024 — COD Mobile",
+      "game_ar": "Call of Duty: Mobile",
+      "game_en": "Call of Duty: Mobile",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "شهد الدوري السعودي للرياضات الإلكترونية 2024 توسعًا كبيرًا بمشاركة آلاف اللاعبين وعشرات البطولات عبر مختلف الألعاب التنافسية. الموسم تضمن نظام Majors وبطولات نهائية ضخمة، ورسخ مكانة السعودية كواحدة من أكبر مراكز الرياضات الإلكترونية عالميًا.",
+      "desc_en": "The 2024 Saudi eLeague featured major expansion with thousands of players and dozens of tournaments across multiple competitive titles. The season introduced a Major-based format and large championship events, further establishing Saudi Arabia as a global esports hub.",
+      "image": "img/trophies/36.webp",
+      "photos": [
+        "img/trophies/36.webp"
+      ],
+      "device": 3,
+      "ledStart": 162,
+      "ledStop": 189,
+      "color": "#30d158"
+    },
+    {
+      "id": "t30",
+      "title_ar": "Saudi eLeague 2025 — COD Mobile",
+      "title_en": "Saudi eLeague 2025 — COD Mobile",
+      "game_ar": "Call of Duty: Mobile",
+      "game_en": "Call of Duty: Mobile",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حقق تويستد مايندز لقب الدوري السعودي الإلكتروني 2025 في Call of Duty: Mobile بعد موسم قوي وهيمنة واضحة على المنافسات المحلية. الفريق قدم أداءً استثنائياً طوال البطولة، مؤكداً مكانته كأحد أقوى فرق COD Mobile في المملكة والمنطقة.",
+      "desc_en": "Twisted Minds claimed the Saudi eLeague 2025 title in Call of Duty: Mobile after a dominant season in the local competitive scene. The team delivered outstanding performances throughout the tournament, solidifying their status as one of the strongest COD Mobile teams in Saudi Arabia and the region.",
+      "image": "img/trophies/20.webp",
+      "photos": [
+        "img/trophies/20.webp",
+        "img/tournaments/mob25.webp"
+      ],
+      "device": 3,
+      "ledStart": 189,
+      "ledStop": 216,
+      "color": "#30d158"
+    },
+    {
+      "id": "t31",
+      "title_ar": "Gamers8 2023 — Tekken 7 Nations Cup",
+      "title_en": "Gamers8 2023 — Tekken 7 Nations Cup",
+      "game_ar": "Tekken 7",
+      "game_en": "Tekken 7",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "باكستان بقيادة Arslan Ash من TM فازت 3-1 على كوريا. بطولة أمم لا أندية، لكن أيقونة النادي في القمة.",
+      "desc_en": "Pakistan, led by TM's Arslan Ash, won 3-1 against South Korea. A nations cup, not a club title — but the club's icon was at the very top.",
+      "image": "img/trophies/g8.webp",
+      "photos": [
+        "img/trophies/g8.webp"
+      ],
+      "device": 3,
+      "ledStart": 216,
+      "ledStop": 243,
+      "color": "#ff375f"
+    },
+    {
+      "id": "t32",
+      "title_ar": "EVO 2025 — Tekken 8",
+      "title_en": "EVO 2025 — Tekken 8",
+      "game_ar": "Tekken 8",
+      "game_en": "Tekken 8",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "اللقب السادس لـ Arslan Ash في EVO. نهائي باكستاني خالص بين Arslan Ash و Atif Butt. الجمهور وصفه بـ \"The undisputed GOAT of Tekken\".",
+      "desc_en": "Arslan Ash's sixth EVO title. An all-Pakistani final between Arslan Ash and Atif Butt. The crowd dubbed him \"The undisputed GOAT of Tekken\".",
+      "image": "img/trophies/18.webp",
+      "photos": [
+        "img/trophies/18.webp"
+      ],
+      "device": 3,
+      "ledStart": 243,
+      "ledStop": 270,
+      "color": "#ff375f"
+    },
+    {
+      "id": "t33",
+      "title_ar": "GCC League 2025 — Street Fighter 6",
+      "title_en": "GCC League 2025 — Street Fighter 6",
+      "game_ar": "Street Fighter 6",
+      "game_en": "Street Fighter 6",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "Latif (TM) فاز 3-1 على GTR في النهائي. عودة أسطورية بعد 7 سنوات من الانقطاع عن الاحتراف. يوليو 2025.",
+      "desc_en": "Latif (TM) won 3-1 against GTR in the final. A legendary comeback after 7 years away from professional competition. July 2025.",
+      "image": "img/trophies/gccc.webp",
+      "photos": [
+        "img/trophies/gccc.webp",
+        "img/tournaments/sf251.webp",
+        "img/tournaments/sf252.webp",
+        "img/tournaments/sf253.webp"
+      ],
+      "device": 3,
+      "ledStart": 270,
+      "ledStop": 297,
+      "color": "#5e5ce6"
+    },
+    {
+      "id": "t34",
+      "title_ar": "Saudi Fighting League S3 2025 — Street Fighter 6",
+      "title_en": "Saudi Fighting League S3 2025 — Street Fighter 6",
+      "game_ar": "Street Fighter 6",
+      "game_en": "Street Fighter 6",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "Latif (TM) فاز 3-1 على Kusanagi في النهائي من الـ Lower Bracket. 11 أغسطس 2025.",
+      "desc_en": "Latif (TM) won 3-1 against Kusanagi in the final from the Lower Bracket. August 11, 2025.",
+      "image": "img/trophies/3.webp",
+      "photos": [
+        "img/trophies/3.webp",
+        "img/tournaments/sfls3251.webp",
+        "img/tournaments/sfls3252.webp"
+      ],
+      "device": 4,
+      "ledStart": 0,
+      "ledStop": 27,
+      "color": "#5e5ce6"
+    },
+    {
+      "id": "t35",
+      "title_ar": "SFL 2024 — Guilty Gear",
+      "title_en": "SFL 2024 — Guilty Gear",
+      "game_ar": "Guilty Gear -STRIVE",
+      "game_en": "Guilty Gear -STRIVE",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حقق تويستد مايندز لقب Saudi Fighting League 2024 في Guilty Gear بعد موسم قوي شهد حضوراً لافتاً في ساحة ألعاب القتال. انتصار أكد مكانة المنظمة كأحد أبرز الأسماء السعودية في مجتمع الـFGC، بقيادة نخبة من أفضل لاعبي Guilty Gear في المنطقة.",
+      "desc_en": "Twisted Minds claimed the Saudi Fighting League 2024 title in Guilty Gear after a dominant season in the fighting games scene. A victory that reinforced the organization's position as one of Saudi Arabia's leading FGC names, led by some of the region's top Guilty Gear players.",
+      "image": "img/trophies/7.webp",
+      "photos": [
+        "img/trophies/7.webp",
+        "img/tournaments/gg24.webp",
+        "img/tournaments/gg242.webp",
+        "img/tournaments/gg243.webp"
+      ],
+      "device": 4,
+      "ledStart": 27,
+      "ledStop": 54,
+      "color": "#ff6482"
+    },
+    {
+      "id": "t36",
+      "title_ar": "Saudi eLeague 2025 — Rocket League Championship",
+      "title_en": "Saudi eLeague 2025 — Rocket League Championship",
+      "game_ar": "Rocket League",
+      "game_en": "Rocket League",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "فاز على Team Falcons في النهائي (Bo7). MVP: Trk511. نوفمبر 2025.",
+      "desc_en": "Won against Team Falcons in the final (Bo7). MVP: Trk511. November 2025.",
+      "image": "img/trophies/rlsa.webp",
+      "photos": [
+        "img/trophies/rlsa.webp",
+        "img/tournaments/rlc251.webp"
+      ],
+      "device": 4,
+      "ledStart": 54,
+      "ledStop": 81,
+      "color": "#0a84ff"
+    },
+    {
+      "id": "t37",
+      "title_ar": "Gamers8 2023 — Fortnite",
+      "title_en": "Gamers8 2023 — Fortnite",
+      "game_ar": "Fortnite",
+      "game_en": "Fortnite",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "Japko انضم لـ TM رسمياً قبل البطولة بيوم وفاز تحت راية النادي. يوليو 2023.",
+      "desc_en": "Japko officially joined TM just one day before the tournament and won under the club's banner. July 2023.",
+      "image": "img/trophies/g8.webp",
+      "photos": [
+        "img/trophies/g8.webp",
+        "img/tournaments/fng81.webp",
+        "img/tournaments/fng82.webp"
+      ],
+      "device": 4,
+      "ledStart": 81,
+      "ledStop": 108,
+      "color": "#bf5af2"
+    },
+    {
+      "id": "t38",
+      "title_ar": "Gamers8 Club Awards 2023 — Cross-Game",
+      "title_en": "Gamers8 Club Awards 2023 — Cross-Game",
+      "game_ar": "CROSS-GAME",
+      "game_en": "CROSS-GAME",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "جمع النادي أعلى النقاط عبر جميع بطولات Gamers8 2023 المتعددة الألعاب. أكبر جائزة cross-game في تاريخ النادي. إثبات أن تويستد مايندز ليس نادياً لعبة واحدة، بل إمبراطورية.",
+      "desc_en": "Accumulated the highest points across all multi-game Gamers8 2023 tournaments. The largest cross-game prize in the club's history. Proof that Twisted Minds is not a one-game club — it is an empire.",
+      "image": "img/trophies/g8g.webp",
+      "photos": [
+        "img/trophies/g8g.webp"
+      ],
+      "device": 4,
+      "ledStart": 108,
+      "ledStop": 135,
+      "color": "#ffd60a"
+    },
+    {
+      "id": "t39",
+      "title_ar": "Saudi eLeague 2023 — Cross-Game Champions",
+      "title_en": "Saudi eLeague 2023 — Cross-Game Champions",
+      "game_ar": "CROSS-GAME",
+      "game_en": "CROSS-GAME",
+      "year": 2023,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حققت تويستد مايندز جائزة أفضل منظمة سعودية لعام 2023 بعد موسم تاريخي مليء بالإنجازات المحلية والعالمية في عدة ألعاب تنافسية. المنظمة فرضت نفسها كواحدة من أقوى الأندية السعودية والعالمية بعد تتويجها ببطولة Gamers8 Club Awards وتصدرها المشهد السعودي في الرياضات الإلكترونية.",
+      "desc_en": "Twisted Minds won the Best Saudi Organization award in 2023 following a historic season filled with local and international achievements across multiple esports titles. The organization established itself as one of the strongest Saudi and global esports clubs after winning the Gamers8 Club Awards and dominating the Saudi esports scene.",
+      "image": "img/trophies/524.webp",
+      "photos": [
+        "img/trophies/524.webp"
+      ],
+      "device": 4,
+      "ledStart": 135,
+      "ledStop": 162,
+      "color": "#ffd60a"
+    },
+    {
+      "id": "t40",
+      "title_ar": "Saudi eLeague 2024 — Cross-Game Champions",
+      "title_en": "Saudi eLeague 2024 — Cross-Game Champions",
+      "game_ar": "CROSS-GAME",
+      "game_en": "CROSS-GAME",
+      "year": 2024,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "تُوجت تويستد مايندز بلقب Cross-Game Champions بعد تصدرها الترتيب العام للدوري السعودي الإلكتروني عبر عدة ألعاب تنافسية. هيمنة كاملة على موسم 2024 بفضل النتائج القوية والاستمرارية في مختلف البطولات، لتؤكد المنظمة مكانتها كأقوى نادٍ سعودي في الألعاب المتعددة.",
+      "desc_en": "Twisted Minds were crowned Cross-Game Champions after finishing top of the Saudi eLeague overall standings across multiple esports titles. A dominant 2024 season driven by consistency and major results across different games, cementing the organization as Saudi Arabia's top multi-title esports club.",
+      "image": "img/trophies/cg.webp",
+      "photos": [
+        "img/trophies/cg.webp",
+        "img/tournaments/cg24.webp"
+      ],
+      "device": 4,
+      "ledStart": 162,
+      "ledStop": 189,
+      "color": "#ffd60a"
+    },
+    {
+      "id": "t41",
+      "title_ar": "Saudi eLeague 2025 — Cross-Game Champions",
+      "title_en": "Saudi eLeague 2025 — Cross-Game Champions",
+      "game_ar": "CROSS-GAME",
+      "game_en": "CROSS-GAME",
+      "year": 2025,
+      "location_ar": "",
+      "location_en": "",
+      "desc_ar": "حقق تويستد مايندز لقب بطل الكروس جيم السعودي 2025 بعد تصدره الترتيب العام في الدوري السعودي للرياضات الإلكترونية. المنظمة أثبتت تفوقها عبر عدة ألعاب تنافسية وقدمت موسمًا استثنائيًا رسخ مكانتها كأحد أقوى الأندية السعودية في الرياضات الإلكترونية.",
+      "desc_en": "Twisted Minds secured the 2025 Saudi Cross-Game Club Championship after topping the overall standings in the Saudi eLeague. The organization showcased dominance across multiple competitive titles, cementing its reputation as one of Saudi Arabia's strongest esports clubs.",
+      "image": "img/trophies/856.webp",
+      "photos": [
+        "img/trophies/856.webp"
+      ],
+      "device": 4,
+      "ledStart": 189,
+      "ledStop": 216,
+      "color": "#ffd60a"
+    }
+  ],
+  "settings": {
+    "masterOn": true,
+    "idleColor": "#ffb03a",
+    "devices": [
+      {
+        "ip": "192.168.1.101",
+        "ledCount": 300
+      },
+      {
+        "ip": "192.168.1.102",
+        "ledCount": 300
+      },
+      {
+        "ip": "192.168.1.103",
+        "ledCount": 300
+      },
+      {
+        "ip": "192.168.1.104",
+        "ledCount": 300
+      }
+    ]
+  }
+}

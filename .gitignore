@@ -1,0 +1,11 @@
+# raw source images (already deployed to public/img/trophies)
+webpimages/
+
+# portable Node downloaded by start.bat
+runtime/
+
+# runtime artifacts
+data/*.tmp
+base-config.json.bak
+node_modules/
+tournaments/

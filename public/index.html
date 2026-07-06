@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>قاعة الكؤوس — Trophy Room</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="img/trophy-1.svg">
+</head>
+<body>
+
+<!-- Loading screen: force-hidden by app.js after 4s no matter what -->
+<div id="loader">
+  <div class="loader-cup">🏆</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+</div>
+
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<!-- ============ GALLERY ============ -->
+<main id="view-gallery" class="view">
+  <header id="topbar">
+    <div class="brand">
+      <span class="brand-mark">🏆</span>
+      <h1 id="brand-title" data-i18n="brand">قاعة الكؤوس</h1>
+    </div>
+    <div class="topbar-actions">
+      <button id="btn-lang" class="chip" type="button">EN</button>
+      <button id="btn-admin" class="chip chip-ghost" type="button" title="Admin">⚙</button>
+    </div>
+  </header>
+  <div id="grid" class="grid"></div>
+</main>
+
+<!-- ============ TROPHY DETAIL ============ -->
+<section id="view-detail" class="view hidden">
+  <div class="detail-inner">
+    <div class="detail-media">
+      <img id="d-photo" alt="" draggable="false">
+      <div id="d-thumbs" class="thumbs"></div>
+    </div>
+    <div class="detail-text">
+      <div id="d-year" class="detail-year"></div>
+      <h2 id="d-title"></h2>
+      <div class="detail-meta">
+        <span id="d-game" class="meta-pill"></span>
+        <span id="d-location" class="meta-pill meta-loc"></span>
+      </div>
+      <p id="d-desc"></p>
+      <div class="detail-hint" data-i18n="tapToReturn">المس أي مكان للعودة</div>
+      <div id="d-countdown" class="detail-countdown"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ADMIN ============ -->
+<section id="view-admin" class="view hidden">
+  <header class="admin-head">
+    <h2 data-i18n="adminTitle">لوحة التحكم</h2>
+    <div>
+      <button id="btn-admin-close" class="chip" type="button" data-i18n="back">رجوع</button>
+    </div>
+  </header>
+
+  <!-- PIN gate -->
+  <div id="pin-gate" class="panel pin-gate">
+    <p data-i18n="enterPin">أدخل الرمز السري</p>
+    <input id="pin-input" type="password" inputmode="numeric" autocomplete="off" maxlength="8">
+    <button id="pin-go" class="btn" type="button" data-i18n="login">دخول</button>
+    <div id="pin-msg" class="msg"></div>
+  </div>
+
+  <div id="admin-body" class="hidden">
+    <div class="admin-tabs">
+      <button class="tab active" data-tab="trophies" data-i18n="tabTrophies">الكؤوس</button>
+      <button class="tab" data-tab="lighting" data-i18n="tabLighting">الإضاءة والأجهزة</button>
+      <button class="tab" data-tab="system" data-i18n="tabSystem">النظام</button>
+    </div>
+
+    <!-- Trophies tab -->
+    <div id="tab-trophies" class="tabpane">
+      <div class="admin-row">
+        <input id="admin-search" type="search" data-i18n-ph="search" placeholder="بحث…">
+        <button id="btn-new-trophy" class="btn" type="button" data-i18n="addTrophy">+ إضافة كأس</button>
+      </div>
+      <div id="admin-list" class="admin-list"></div>
+    </div>
+
+    <!-- Lighting tab -->
+    <div id="tab-lighting" class="tabpane hidden">
+      <div class="panel">
+        <h3 data-i18n="controllers">وحدات WLED (٤ شرائط)</h3>
+        <div id="dev-rows"></div>
+        <h3 data-i18n="globalLight">الإضاءة العامة</h3>
+        <div class="form-grid">
+          <label><span data-i18n="master">تشغيل الإضاءة</span>
+            <input id="set-master" type="checkbox"></label>
+          <label><span data-i18n="idleColor">لون الوضع العام</span>
+            <input id="set-idlecolor" type="color" value="#ffb03a"></label>
+        </div>
+        <div class="admin-row">
+          <button id="btn-all-on" class="btn" type="button" data-i18n="testAllOn">تجربة: تشغيل الكل</button>
+          <button id="btn-all-off" class="btn btn-ghost" type="button" data-i18n="testAllOff">إطفاء الكل</button>
+          <button id="btn-save-settings" class="btn btn-primary" type="button" data-i18n="save">حفظ</button>
+        </div>
+        <div id="light-msg" class="msg"></div>
+      </div>
+    </div>
+
+    <!-- System tab -->
+    <div id="tab-system" class="tabpane hidden">
+      <div class="panel">
+        <h3 data-i18n="changePin">تغيير الرمز السري</h3>
+        <div class="form-grid">
+          <label><span data-i18n="oldPin">الرمز الحالي</span><input id="pin-old" type="password" maxlength="8" inputmode="numeric"></label>
+          <label><span data-i18n="newPin">الرمز الجديد (٤–٨ أرقام)</span><input id="pin-new" type="password" maxlength="8" inputmode="numeric"></label>
+        </div>
+        <button id="btn-change-pin" class="btn" type="button" data-i18n="save">حفظ</button>
+        <div id="pin-change-msg" class="msg"></div>
+      </div>
+      <div class="panel">
+        <h3 data-i18n="exportTitle">تصدير الإعدادات</h3>
+        <p class="hint" data-i18n="exportHint">حمّل كل التعديلات كملف إعدادات أساسي، أو ثبّتها مباشرة في ملف النظام.</p>
+        <div class="admin-row">
+          <a id="btn-export" class="btn" href="#" data-i18n="exportDownload">تحميل base-config.json</a>
+          <button id="btn-apply-base" class="btn btn-danger" type="button" data-i18n="exportApply">تثبيت التعديلات في الأساس</button>
+        </div>
+        <div id="sys-msg" class="msg"></div>
+      </div>
+      <div class="panel">
+        <h3 data-i18n="perfTitle">الأداء</h3>
+        <label class="inline"><input id="set-reduced" type="checkbox"> <span data-i18n="reducedFx">وضع التأثيرات المخفّضة (لأجهزة التلفاز الضعيفة)</span></label>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TROPHY EDITOR (modal) ============ -->
+<div id="editor" class="modal hidden">
+  <div class="modal-card">
+    <h3 id="editor-title" data-i18n="editTrophy">تعديل كأس</h3>
+    <div class="form-grid two">
+      <label><span data-i18n="fTitleAr">العنوان (عربي)</span><input id="f-title_ar"></label>
+      <label><span data-i18n="fTitleEn">العنوان (إنجليزي)</span><input id="f-title_en" dir="ltr"></label>
+      <label><span data-i18n="fGameAr">اللعبة (عربي)</span><input id="f-game_ar"></label>
+      <label><span data-i18n="fGameEn">اللعبة (إنجليزي)</span><input id="f-game_en" dir="ltr"></label>
+      <label><span data-i18n="fLocAr">المكان (عربي)</span><input id="f-location_ar"></label>
+      <label><span data-i18n="fLocEn">المكان (إنجليزي)</span><input id="f-location_en" dir="ltr"></label>
+      <label class="wide"><span data-i18n="fDescAr">الوصف (عربي)</span><textarea id="f-desc_ar" rows="2"></textarea></label>
+      <label class="wide"><span data-i18n="fDescEn">الوصف (إنجليزي)</span><textarea id="f-desc_en" rows="2" dir="ltr"></textarea></label>
+      <label><span data-i18n="fYear">السنة</span><input id="f-year" type="number" min="1990" max="2100"></label>
+      <label><span data-i18n="fImage">الصورة الرئيسية</span>
+        <span class="file-row"><input id="f-image" dir="ltr"><input id="f-image-file" type="file" accept="image/*" hidden><button class="btn btn-mini" type="button" id="f-image-pick">📁</button></span>
+      </label>
+      <label class="wide"><span data-i18n="fPhotos">صور إضافية (سطر لكل صورة)</span>
+        <span class="file-row"><textarea id="f-photos" rows="2" dir="ltr"></textarea><input id="f-photos-file" type="file" accept="image/*" multiple hidden><button class="btn btn-mini" type="button" id="f-photos-pick">📁+</button></span>
+      </label>
+    </div>
+    <h4 data-i18n="fLighting">الإضاءة</h4>
+    <div class="form-grid four">
+      <label><span data-i18n="fDevice">الجهاز</span>
+        <select id="f-device"><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+      <label><span data-i18n="fStart">أول ليد</span><input id="f-ledStart" type="number" min="0"></label>
+      <label><span data-i18n="fStop">آخر ليد</span><input id="f-ledStop" type="number" min="1"></label>
+      <label><span data-i18n="fColor">اللون</span><input id="f-color" type="color" value="#ff9500"></label>
+    </div>
+    <div class="admin-row">
+      <button id="btn-test-range" class="btn" type="button" data-i18n="testRange">💡 تجربة هذا النطاق</button>
+      <span id="editor-msg" class="msg"></span>
+    </div>
+    <div class="admin-row modal-actions">
+      <button id="btn-editor-save" class="btn btn-primary" type="button" data-i18n="save">حفظ</button>
+      <button id="btn-editor-cancel" class="btn btn-ghost" type="button" data-i18n="cancel">إلغاء</button>
+    </div>
+  </div>
+</div>
+
+<script src="js/lighting.js"></script>
+<script src="js/bg.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
