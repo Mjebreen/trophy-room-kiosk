@@ -1,4 +1,4 @@
-# Trophy Room Kiosk — قاعة الكؤوس
+# Trophy Room Kiosk
 
 Offline LAN kiosk for an esports trophy room: a bilingual (AR/EN) trophy gallery
 on a big screen, with physical WLED shelf lighting synced to whatever is on screen.
